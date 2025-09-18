@@ -1,0 +1,15 @@
+# Ignore all log files
+*.log
+
+# Ignore the 'pycache' directory and its contents
+__pycache__/
+
+# Ignore a specific file named 'config.local'
+config.local
+
+# Ignore the uv.lock file
+uv.lock
+
+# Ignore all files begining with a dot, except for .gitignore
+.*
+!.gitignore
