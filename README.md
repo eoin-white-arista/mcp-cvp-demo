@@ -22,22 +22,23 @@ CVPTOKEN="Insert CloudVision Service account token here"
 CVP="www.arista.io"
 ```
 
-2\. Start the MCP server as follows 
+2\. Crate the uv environment as follows
 
 ````bash 
 uv init
 uv venv
 source .venv/bin/activate
-uv run mcp_server_rest.py
 ```` 
 
-Note: the `uv --directory` flag may need to be used if running uv from a different root directory, where [directory] is the directory that uv was initiated in i.e this directory.
 
-```bash
-uv --directory [directory] run mcp_server_rest.py
+3\. Add this MCP server to gemini CLI as follows
+
+
+```
+gemini mcp add "CVP MCP Server" uv --directory [cloned directory] run mcp_server_rest.py --transport stdio
 ```
 
-3\. Use your favorite LLM and start prompting
+Where [cloned directory] is the full apth of the cloned directory
 
 
 ## How to generate service account tokens
