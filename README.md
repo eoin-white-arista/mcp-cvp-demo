@@ -37,9 +37,8 @@ Note: the `uv --directory` flag may need to be used if running uv from a differe
 uv --directory [directory] run mcp_server_rest.py
 ```
 
-3\. Uee your favorite LLM and start prompting
+3\. Use your favorite LLM and start prompting
 
-![creattag](./media/createtag.png)
 
 ## How to generate service account tokens
 
