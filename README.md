@@ -7,7 +7,7 @@
 >
 
 
-Kudos to [@noredistribution](https://github.com/noredistribution). This demo is almost entirely built on their work with few small modidifcaiton to make it work for me.
+Kudos to [@noredistribution](https://github.com/noredistribution). This demo is almost entirely built on their work with few small modifications to make it work for me.
 
 Any API call can be added very easy with the `@mcp.tool()` decorator.
 
