@@ -38,7 +38,7 @@ source .venv/bin/activate
 gemini mcp add "CVP MCP Server" uv --directory [cloned directory] run mcp_server_rest.py --transport stdio
 ```
 
-Where [cloned directory] is the full apth of the cloned directory
+Where [cloned directory] is the full path of the cloned directory
 
 
 ## How to generate service account tokens
